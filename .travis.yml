@@ -1,4 +1,6 @@
 language: cpp
-compiler: clang
+compiler:
+    - gcc
+    - clang
 
 script: mkdir build && cd build && cmake .. && cmake --build .
